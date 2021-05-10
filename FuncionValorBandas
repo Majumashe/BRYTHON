@@ -1,6 +1,6 @@
 def concatenar(x,a,b,c):
- if x== 1:
- z= (a * (10)) + (b * (1)) 
- elif x== 2:
- z= (a * (100)) + (b * (10)) + (c * (1))
- return z
+  if x==1:
+    z=(b*10)+(c*1)
+  if x==2:
+    z=(a*100)+(b*10)+(c*1)
+  return z
